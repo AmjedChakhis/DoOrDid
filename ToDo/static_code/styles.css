@@ -1,0 +1,100 @@
+/* Center the container */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: 'Roboto', Arial, sans-serif; /* Change font */
+}
+
+/* Center the content within the container */
+.container {
+    background: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 36px;
+}
+
+#app {
+    width: 100%;
+}
+
+.input-container {
+    margin-bottom: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.input-container input[type="text"],
+.input-container button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    font-size: 1em;
+}
+
+.input-container button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.input-container button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+#showHideButton,
+button {
+    background-color: #008CBA; /* Blue */
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#showHideButton:hover,
+button:hover {
+    background-color: #007bb5;
+    transform: scale(1.05);
+}
